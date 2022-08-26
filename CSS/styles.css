@@ -140,11 +140,31 @@ img {
 
 .button__primary {
   background-color: var(--blue);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 30px;
-  color: var(--white);
   cursor: pointer;
+}
+.button__primary--bold-text {
+  font-weight: var(--bold);
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--white);
+}
+
+.button__secondary {
+  background-color: var(--lightgray);
+  cursor: pointer;
+}
+
+.button__secondary--light-text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.625;
+  color: var(--black);
+}
+
+.button__secondary--light-text:hover,
+.button__secondary--light-text:focus {
+  color: var(--white);
+  background-color: var(--blue);
 }
 
 /* END -- Shared styles -- */
