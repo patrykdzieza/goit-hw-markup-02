@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+@import 'node_modules/modern-normalize/modern-normalize.css';
+
+:root {
+  --blue: #2196f3;
+  --gray: #757575;
+  --black: #212121;
+  --lightgray: #f5f4fa;
+  --background: #fff;
+  --dark-background: #2f303a;
+  --bold: 700;
+  --white: #fff;
+}
+* {
+}
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  list-style: none;
+  color: var(--black);
+  background-color: var(--lightgray);
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  background-color: var(--background);
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  align-items: center;
+  gap: 46px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+.navigation__item {
+  display: inline-block;
+}
+.contact-links {
+  margin-left: auto;
+  display: flex;
+  gap: 50px;
+  padding: 20px;
+}
+/* START -- Shared Styles -- */
+
+.active--link {
+  color: var(--blue);
+}
+.logo--light {
+  color: var(--white);
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: var(--bold);
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: var(--bold);
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--black);
+  text-decoration: none;
+}
+.logo-accent {
+  color: var(--blue);
+}
+
+.navigation__content {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  align-items: center;
+  gap: 40px;
+}
+
+.navigation__link {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  color: var(--black);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.navigation__link--contact {
+  color: var(--gray);
+}
+
+.navigation__link--active {
+  color: var(--blue);
+}
+
+.navigation__link:hover,
+.navigation__link:focus {
+  color: var(--blue);
+}
+
+.footer {
+  background-color: var(--dark-background);
+  padding: 20px;
+}
+.footer_content {
+  text-decoration: none;
+}
+
+.footer__text {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.footer__text--contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer__text--contact:hover {
+  color: var(--blue);
+}
+
+/* BUTTONS */
+
+.button__primary {
+  background-color: var(--blue);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--white);
+  cursor: pointer;
+}
+
+/* END -- Shared styles -- */
+
+/* -- INDEX.HTML STYLES -- */
+
+.hero__container {
+}
+
+.hero__container--background {
+  background-color: var(--dark-background);
+}
+
+.hero__title {
+  color: var(--white);
+  font-size: 44px;
+  font-weight: 900;
+}
+
+.section-4-col__container {
+  display: flex;
+}
+.section-4-col__container--light-bg {
+  background-color: var(--lightgray);
+}
+.section-4-col__content {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.section-4-col__item {
+  list-style: none;
+}
+
+.section-4-col__title {
+  font-weight: var(--bold);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.section-4-col__title--big {
+  color: var(--black);
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+
+.section-4-col__title--medium {
+  color: var(--black);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+.section-4-col__text {
+  color: var(--gray);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.section-4-col__text--medium {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+.section-3-col__container {
+  display: flex;
+  background-color: antiquewhite;
+  padding: 94px 0px 94px 0px;
+  flex-wrap: wrap;
+  flex-basis: 50px;
+}
+
+.section-3-col__title {
+  font-weight: var(--bold);
+  color: var(--black);
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section-3-col__content {
+  display: flex;
+  flex-direction: row;
+  background-color: aliceblue;
+  justify-content: space-between;
+  padding: 0;
+  gap: 30px;
+  align-items: center;
+}
+
+.section-3-col__item {
+  list-style: none;
+}
+
+/* -- END INDEX.HTML STYLES -- */
+/* -- START PORTFOLIO.HTML STYLES -- */
