@@ -17,7 +17,7 @@ body {
   font-family: 'Roboto', 'Raleway', sans-serif;
   list-style: none;
   color: var(--black);
-  background-color: var(--lightgray);
+
   font-size: 16px;
   letter-spacing: 0.03em;
   background-color: var(--background);
@@ -151,6 +151,7 @@ img {
 
 .button__secondary {
   background-color: var(--lightgray);
+  border: 0px;
   cursor: pointer;
 }
 
@@ -167,6 +168,7 @@ img {
   background-color: var(--blue);
 }
 
+/* -- BUTTONS STYLE END -- */
 /* END -- Shared styles -- */
 
 /* -- INDEX.HTML STYLES -- */
@@ -245,7 +247,6 @@ img {
   background-color: antiquewhite;
   padding: 94px 0px 94px 0px;
   flex-wrap: wrap;
-  flex-basis: 50px;
 }
 
 .section-3-col__title {
@@ -273,3 +274,21 @@ img {
 
 /* -- END INDEX.HTML STYLES -- */
 /* -- START PORTFOLIO.HTML STYLES -- */
+
+.section-1-col__container {
+  display: flex;
+  background-color: #757575;
+  justify-content: center;
+  gap: 30px;
+}
+
+.section-1-col__content {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.section-1-col__item {
+  display: flex;
+}
