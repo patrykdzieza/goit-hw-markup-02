@@ -23,33 +23,13 @@ body {
   margin: 0;
 }
 
-img {
-  display: block;
-}
-
 .header__container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-
-  align-items: center;
-  gap: 46px;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 .container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0;
 }
 .navigation__item {
-  display: inline-block;
 }
 .contact-links {
-  margin-left: auto;
-  display: flex;
-  gap: 50px;
-  padding: 20px;
 }
 /* START -- Shared Styles -- */
 
@@ -79,13 +59,6 @@ img {
 }
 
 .navigation__content {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-
-  align-items: center;
-  gap: 40px;
 }
 
 .navigation__link {
@@ -135,9 +108,6 @@ img {
   color: var(--blue);
 }
 .footer-column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 20px;
 }
 /* BUTTONS */
 
@@ -190,17 +160,11 @@ img {
 }
 
 .section-4-col__container {
-  display: flex;
 }
 .section-4-col__container--light-bg {
   background-color: var(--lightgray);
 }
 .section-4-col__content {
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-  justify-content: space-between;
-  padding: 0;
 }
 
 .section-4-col__item {
@@ -246,10 +210,6 @@ img {
   text-align: center;
 }
 .section-3-col__container {
-  display: flex;
-  background-color: antiquewhite;
-  padding: 94px 0px 94px 0px;
-  flex-wrap: wrap;
 }
 
 .section-3-col__title {
@@ -262,14 +222,6 @@ img {
 }
 
 .section-3-col__content {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  background-color: aliceblue;
-  justify-content: space-between;
-  padding: 0;
-  gap: 30px;
-  align-items: center;
 }
 
 .section-3-col__item {
@@ -277,9 +229,6 @@ img {
 }
 
 .section-3-col__content-box {
-  margin: 0;
-  padding: 0;
-  border: 1px solid #2196f3;
 }
 
 .section-3-col__content-box__title {
@@ -302,19 +251,10 @@ img {
 /* -- START PORTFOLIO.HTML STYLES -- */
 
 .section-1-col__container {
-  display: flex;
-  background-color: #757575;
-  justify-content: center;
-  gap: 30px;
 }
 
 .section-1-col__content {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  justify-content: space-between;
 }
 
 .section-1-col__item {
-  display: flex;
 }
