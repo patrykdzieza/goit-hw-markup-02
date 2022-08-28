@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
-@import 'node_modules/modern-normalize/modern-normalize.css';
+@import url('node_modules/modern-normalize/modern-normalize.css');
 
 :root {
   --blue: #2196f3;
@@ -235,7 +235,6 @@ body {
   font-weight: var(--bold);
   font-size: 18px;
   line-height: 2;
-  margin: 0;
 }
 
 .section-3-col__content-box__text {
@@ -244,7 +243,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--gray);
   letter-spacing: 0.06em;
-  margin: 0;
 }
 
 /* -- END INDEX.HTML STYLES -- */
