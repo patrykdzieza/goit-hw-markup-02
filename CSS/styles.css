@@ -22,9 +22,6 @@ body {
   background-color: var(--background);
   margin: 0;
 }
-.current-link {
-  color: var(--blue);
-}
 .header__container {
 }
 .container {
