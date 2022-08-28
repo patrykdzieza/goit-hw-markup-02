@@ -135,7 +135,11 @@ img {
 .footer__text--contact:hover {
   color: var(--blue);
 }
-
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20px;
+}
 /* BUTTONS */
 
 .button__primary {
